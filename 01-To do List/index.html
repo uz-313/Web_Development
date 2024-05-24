@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="gradiant">
+    <header>
+        <h1 class="header">To-do List</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="part-1">
+                <h2 id="heading-1">Add Task</h2>
+                    <div class="txt_btn">
+                        <input type="text" class="text-box" placeholder="Enter your task here">
+                        <button type="submit" id="save-btn">Add</button>
+                    </div>
+            </div>
+
+            <div class="part-2">
+                <p id="MessageBar"></p>
+                <h2 id="heading-2">Tasks</h2>
+                <ul id="list-main">
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div class="footer"> <span class="heart">&#10084;</span> Made with Simplicity <span
+                class="heart">&#10084;</span></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
